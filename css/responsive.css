@@ -1,0 +1,62 @@
+/* if the viewport is equal to 340px or less than that */
+
+@media only screen and (max-width: 340px) {
+    .navbar {
+        background: #fff;
+    }
+    .sec {
+        margin-top: 5%;
+    }
+    .navbar-nav a {
+        float: right;
+    }
+    .title {
+        letter-spacing: normal !important;
+    }
+    .hero-image .left img {
+        padding-left: 20%;
+    }
+    .hero-image .right .typ span {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .hero-image .left img {
+        padding-left: 10%;
+    }
+}
+
+@media (min-width: 600px) {
+    .hero-image .left img {
+        padding-left: 15%;
+    }
+}
+
+
+/* if the viewport is equal to 792px or less than that */
+
+@media only screen and (max-width: 792px) {
+    .navbar {
+        background: #fff;
+    }
+}
+
+
+/* if the viewport is equal to 1910px or less than that */
+
+@media only screen and (max-width: 1910px) {
+    .main-menu .navbar {
+        padding: 1rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+    .site-main .about-area,
+    .site-main .education-area,
+    .site-main .training-area,
+    .site-main .skill-area,
+    .site-main .contact-area {
+        padding: 3% 4%;
+    }
+}
