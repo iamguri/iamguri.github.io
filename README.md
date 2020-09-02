@@ -1,2 +1,5 @@
-# my_portfolio
-goto iamguri.github.io
+# My Portfolio
+
+This project displays my personal projects, experiences and skills.
+
+[have a look at my portfolio](https://iamguri.github.io/)
