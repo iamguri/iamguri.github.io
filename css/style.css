@@ -242,9 +242,9 @@
 /* education area ends */
 
 
-/* training area starts */
+/* work exp area starts */
 
-.training-area .icon-box {
+.work-experience .icon-box {
     background: #94aff1;
     padding: 40px 40px;
     transition: all ease-in-out 0.3s;
@@ -252,13 +252,13 @@
     border-radius: 10px;
 }
 
-.training-area .icon-box h4 {
+.work-experience .icon-box h4 {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 24px;
 }
 
-.training-area .icon-box p {
+.work-experience .icon-box p {
     font-size: 16px;
     background: #f7f8f9;
     padding: 5px 15px;
@@ -268,27 +268,27 @@
     text-transform: uppercase;
 }
 
-.training-area .icon-box h4 a {
+.work-experience .icon-box h4 a {
     color: #fff;
 }
 
-.training-area .icon-box p {
+.work-experience .icon-box p {
     line-height: 24px;
     font-size: 14px;
     margin-bottom: 0;
 }
 
-.training-area .icon-box:hover {
+.work-experience .icon-box:hover {
     background: #D6CEF9;
     border-color: #1c7d32;
 }
 
-.training-area .icon-box:hover .icon {
+.work-experience .icon-box:hover .icon {
     background: #fff;
 }
 
 
-/* training ends */
+/* work exp ends */
 
 
 /* skill area starts */
@@ -337,7 +337,7 @@
 
 /* project area starts */
 
-.project-area .grid img {
+/* .project-area .grid img {
     width: 150px;
 }
 
@@ -444,7 +444,7 @@
 
 .fadeIn-bottom {
     top: 100%;
-}
+} */
 
 
 /* project area ends */
@@ -470,8 +470,9 @@
 .contact-area a {
     text-decoration: none;
     font-size: 1.1rem;
-    color: rgb(46, 12, 238);
+    color: rgb(12, 12, 12);
     overflow-wrap: break-word;
+    text-decoration: none;
 }
 
 .first-box {
@@ -503,7 +504,7 @@
 
 #footer {
     background: url("../img/banner/banner.png");
-    background-size: 100% 100%;
+    background-size: 100% 99%;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -522,8 +523,8 @@
 }
 
 .footer-box img {
-    width: 150px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 5px;
     left: 50%;
     right: 50%;
     /* transform: translateX(-10%); */
@@ -533,6 +534,7 @@
     font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .footer-box .contact .fa {
