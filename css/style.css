@@ -313,7 +313,7 @@
     width: 220;
     height: 220px;
     transition: transform .4s ease;
-    box-shadow: 0 .2rem 3rem rgba(25, 62, 68, 0.2);
+    box-shadow: 0 .1rem 1rem rgba(25, 62, 68, 0.2);
     display: block;
 }
 
